@@ -86,7 +86,7 @@ isset($_POST['email']) && isset($_POST['senha']) && isset($_POST['confirmaSenha'
     <section id="section-form-cadastro">
         <div class="div-form-cadastro">
 
-        <form method="post" name='usuario' action="">
+        <form method="post" name='usuario' action="login.php">
             <div class="form-row">
               <div class="form-group col-md-6">
                 Nome<input name="nome" type="text" class="form-control" placeholder="Antonio">
