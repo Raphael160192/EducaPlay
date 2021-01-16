@@ -1,14 +1,15 @@
-
 <?php
-$servername = "localhost";
-$username =  "root";
-$password = "";
-$database = "educaplay";
+$localhost = "localhost";
+$user ="root";
+$senha ="";
+$database= "educaplay";
 
-$connect = mysqli_connect($servername, $username, $password, $database);
 
-if(!$connect) {
-    die("A conexão falhou".mysqli_connect_error())
-    ;
+$conexao = mysqli_connect($localhost,$user,$senha,$database);
+
+if(!$conexao){
+
+    echo "falha na conexao";
 }
+
 ?>
