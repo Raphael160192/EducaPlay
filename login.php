@@ -1,4 +1,8 @@
 <?php
+include_once("db_connect.php");
+?>
+
+<?php
 session_start();
 
 ?>
@@ -93,10 +97,10 @@ session_start();
         </select> <br><br> 
 
         <label class="texto-login" for="nome">Usuário</label><br>
-        <input class="caixa-login" type="email" id="nome" name="nome" placeholder="digite seu email"><br><br> 
+        <input class="caixa-login" type="email" id="nome" name="nome" placeholder="digite seu email" required><br><br> 
 
         <label class="texto-login" for="senha">Senha</label><br>
-        <input class="caixa-login" type="password" id="senha" name="senha" placeholder="digite sua senha"><br><br>
+        <input class="caixa-login" type="password" id="senha" name="senha" placeholder="digite sua senha" required><br><br>
         
         <p class="form-text-login">Esqueci minha Senha</p>
 
