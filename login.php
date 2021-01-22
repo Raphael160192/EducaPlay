@@ -87,7 +87,7 @@ session_start();
         
         ?>
 
-        <form action = 'materias.php' method = 'POST'> 
+        <form action = 'cadastro_login.php' method = 'POST'> 
         <label class="texto-login" for="cars">Qual seu perfil</label><br> 
 
         <select id="cars-caixa-login" name="cars">
@@ -96,11 +96,11 @@ session_start();
           <option value="audi">Administrador</option>
         </select> <br><br> 
 
-        <label class="texto-login" for="nome">Usuário</label><br>
-        <input class="caixa-login" type="email" id="nome" name="nome" placeholder="digite seu email" required><br><br> 
+        <label class="texto-login" for="email">Usuário</label><br>
+        <input class="caixa-login" type="email" id="email" name="email" placeholder="digite seu email"><br><br> 
 
         <label class="texto-login" for="senha">Senha</label><br>
-        <input class="caixa-login" type="password" id="senha" name="senha" placeholder="digite sua senha" required><br><br>
+        <input class="caixa-login" type="password" id="senha" name="senha" placeholder="digite sua senha"><br><br>
         
         <p class="form-text-login">Esqueci minha Senha</p>
 
