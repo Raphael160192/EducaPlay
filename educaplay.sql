@@ -8,7 +8,7 @@ CREATE TABLE `usuario` (
   `cidade` varchar(20) DEFAULT NULL,
   `cep` varchar(12) DEFAULT NULL,
   `email` varchar(30) NOT NULL,
-  `senha` int NOT NULL,
-  `confirmaSenha` int NOT NULL,
+  `senha` char(32),
+  `confirmaSenha` char(32),
   PRIMARY KEY (`id`)
 )
