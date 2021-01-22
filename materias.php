@@ -1,8 +1,19 @@
 <?php
 session_start();
-//include('verifica_login.php');
+
+ if(!isset($_SESSION['senha']) && !isset($_SESSION['email'])){
+//   echo $_SESSION['nome'];
+//  echo $_SESSION['email'];
+
+ header('Location:login.php');
+exit;
+}
+//  session_destroy();
 ?>
+
 <h2><a href= "logout.php">Sair</a></h2>
+
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
