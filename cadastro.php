@@ -1,3 +1,9 @@
+
+<?php
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -45,11 +51,12 @@
       </div>
 
     </section>
-
     <section id="section-form-cadastro">
         <div class="div-form-cadastro">
 
-        <form method="post" name='usuario' action="login.php">
+
+
+        <form method="post"  action="processa_cadastro.php">
             <div class="form-row">
               <div class="form-group col-md-6">
                 Nome<input name="nome" type="text" class="form-control" placeholder="Antonio"required>
