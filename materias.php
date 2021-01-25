@@ -53,6 +53,7 @@ exit;
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
               <div class="navbar-nav">
+              <a class="nav-item nav-link" id="home-menu" href="usuarios.php">Usuários</span></a>
                 <a class="nav-item nav-link" id="home-menu" href="index.html">Home</span></a>
                 <a class="nav-item nav-link" id="about-menu" href="#">Sobre</a> 
                 <a class="divisor" role="separator" href="#"></a>       
@@ -237,4 +238,5 @@ exit;
     
 </body>
 </html>
+
 
