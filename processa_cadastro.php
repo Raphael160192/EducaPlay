@@ -23,7 +23,7 @@ if (strlen($nome) > 3 && strlen($email) > 3 && strlen($senha) > 3 && $senha == $
    values ('$nome','$sobrenome','$cpf','$rg','$endereco','$cidade','$cep','$email','$senha','$confirmaSenha')";
     mysqli_query($conexao,$sql);
 
-    echo "<script> alert('casdastro efetuado com sucesso')
+    echo "<script> alert('Cadastro efetuado com sucesso!')
     window.location.href='login.php'
     
     </script>";
