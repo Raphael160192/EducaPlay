@@ -71,7 +71,7 @@ exit;
 			
 			<nav>
 				<ul class="conteudoPrincipal-cursos">
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Português</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="aulas.html">Português</a></li>
 					<li class="conteudoPrincipal-cursos-link"><a href="#">Matemática</a></li>
 					<li class="conteudoPrincipal-cursos-link"><a href="#">Biologia</a></li>
 					<li class="conteudoPrincipal-cursos-link"><a href="#">Física</a></li>
