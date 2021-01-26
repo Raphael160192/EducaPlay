@@ -59,8 +59,9 @@ if($apagar){
 
   <h1 class="text-info text-center">Lista de usuários</h1>
 <br>
+<div class="container">
 <table class="table">
-  <thead>
+  <thead class="bg-info">
     <tr>
       <th scope="col">ID</th>
       <th scope="col">NOME</th>
@@ -91,6 +92,6 @@ if($apagar){
   </tbody>
  
 </table>
-
+</div>
   </body>
   </html>
