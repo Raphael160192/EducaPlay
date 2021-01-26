@@ -31,7 +31,7 @@ if (strlen($nome) > 3 && strlen($email) > 3 && strlen($senha) > 3 && $senha == $
 
 else if ($senha != $confirmaSenha){
 
-    echo "<script> alert('As senhas não conferem, tente novamnete')
+    echo "<script> alert('As senhas não conferem, tente novamente!')
     window.location.href='cadastro.php'
     
     </script>";
