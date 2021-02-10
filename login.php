@@ -43,7 +43,7 @@ session_start();
 
     <section id="section-login">
      
-      <div class="bloco_card ">
+      <div class="bloco_card">
         <div class="card" style="width: 14rem;">
           <img src="imagem/undraw_product_iteration_kjok.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -88,13 +88,13 @@ session_start();
         ?>
 
         <form action = 'cadastro_login.php' method = 'POST'> 
-        <label class="texto-login" for="cars">Qual seu perfil</label><br> 
+        <!-- <label class="texto-login" for="cars">Qual seu perfil</label><br> 
 
         <select id="cars-caixa-login" name="cars">
           <option value="saab">Aluno</option>
           <option value="fiat">Professor</option>
           <option value="audi">Administrador</option>
-        </select> <br><br> 
+        </select> <br><br>  -->
 
         <label class="texto-login" for="email">Usuário</label><br>
         <input class="caixa-login" type="email" id="email" name="email" placeholder="digite seu email"><br><br> 
