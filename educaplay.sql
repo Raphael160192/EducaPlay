@@ -20,6 +20,13 @@ professor varchar(50),
 primary key(idmateria)
 )
 
+CREATE TABLE `comentario` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(30) DEFAULT NULL,
+  `msg` varchar(400) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+
 INSERT INTO materias (disciplina,professor) values((1,'matematica','Paulo'),(2,'lingua portuguesa','Rosa'),(3,'ciencias','Davi'),(4,'geografia','Fernanda');)
 
 SELECT *
