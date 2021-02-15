@@ -1,7 +1,6 @@
 
 <?php
 session_start();
-
 ?>
 
 <!DOCTYPE html>
@@ -106,13 +105,8 @@ session_start();
               
             </div>
             <button name="submit" type="submit" class="btn btn-primary">Enviar</button>
-
-
-
-
           </form>
 
-        
 
 </div> 
 </section>
