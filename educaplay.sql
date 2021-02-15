@@ -15,6 +15,7 @@ CREATE TABLE `usuario` (
   PRIMARY KEY (`id`)
 );
 
+<<<<<<< HEAD
 create table materias(
 idmateria int not null auto_increment,
 disciplina varchar(50) not null,
@@ -22,9 +23,16 @@ professor varchar(50),
 primary key(idmateria)
 );
 
+=======
+>>>>>>> a319069774855b73320cccd950adaa57af77c20c
 CREATE TABLE `comentario` (
   `id` int NOT NULL AUTO_INCREMENT,
   `nome` varchar(30) DEFAULT NULL,
   `msg` varchar(400) NOT NULL,
   PRIMARY KEY (`id`)
+<<<<<<< HEAD
 );
+=======
+)
+
+>>>>>>> a319069774855b73320cccd950adaa57af77c20c
