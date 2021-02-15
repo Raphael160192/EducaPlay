@@ -13,13 +13,6 @@ CREATE TABLE `usuario` (
   PRIMARY KEY (`id`)
 )
 
-create table materias(
-idmateria int not null auto_increment,
-disciplina varchar(50) not null,
-professor varchar(50),
-primary key(idmateria)
-)
-
 CREATE TABLE `comentario` (
   `id` int NOT NULL AUTO_INCREMENT,
   `nome` varchar(30) DEFAULT NULL,
@@ -27,9 +20,3 @@ CREATE TABLE `comentario` (
   PRIMARY KEY (`id`)
 )
 
-INSERT INTO materias (disciplina,professor) values((1,'matematica','Paulo'),(2,'lingua portuguesa','Rosa'),(3,'ciencias','Davi'),(4,'geografia','Fernanda');)
-
-SELECT *
-FROM materias as m
-INNER JOIN usuario as u
-ON m.idmaterias = u.id
