@@ -30,54 +30,7 @@
       include('./components/navbar.html')
     ?>
 
-    <!-- 
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="index.html">
-        <img id="logo" src="imagem/logo_educa_play-branco.png" alt="Educa Play">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="about-menu" href="#">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cadastro.php">Cadastre-se</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="login.php">Entrar</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-
     
-    <div class="container" id="nav-container">
-        <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="index.html">
-          <img id="logo" src="imagem/logo_educa_play-branco.png" alt="Educa Play">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" id="home-menu" href="index.html">Home</span></a>
-            <a class="nav-item nav-link" id="about-menu" href="#">Sobre</a> 
-            <a class="divisor" role="separator" href="#"></a>       
-            <a class="nav-item nav-link" id="subscribe-menu" href="cadastro.php">Cadastre-se</a>
-            <a class="nav-item nav-link" id="login-menu" href="login.php">Entrar</a>
-          </div>
-        </div>
-      </nav>
-    </div> 
-    -->
   </header>
 
   
@@ -160,11 +113,11 @@
 
 
   <section class="videoSobre" style="background-color: #7DC2F7">
-    <div class="container">
-      <iframe class="container-fluid"  src="https://www.youtube.com/embed/L-rib0V4dxY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container d-flex justify-content-between">
+      <iframe  class="container-fluid "  src="https://www.youtube.com/embed/L-rib0V4dxY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
       <div class="videoSobre-sobre">
-        <h2 class="videoSobre-sobre-title">Por Que os Videogames São Bons Para o <br> Cérebro e Para o Corpo</h2>
+        <h2 class="videoSobre-sobre-title">Por Que os Videogames São Bons Para o  Cérebro e Para o Corpo</h2>
         <div class="videoSobre-sobre-list">
           <p class="videoSobre-sobre-item">Dizem que videogame não faz bem para você. Dizem que é ruim para os olhos, <br>
              a coluna e a vida social. Mas, ei, aproveite para mostrar a esses estraga-prazeres <br>

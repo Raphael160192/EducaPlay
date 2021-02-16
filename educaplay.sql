@@ -20,4 +20,3 @@ CREATE TABLE `comentario` (
   PRIMARY KEY (`id`)
 )
 
-

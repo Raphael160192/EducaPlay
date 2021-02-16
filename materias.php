@@ -11,8 +11,6 @@ exit;
 //  session_destroy();
 ?>
 
-<h2><a href= "logout.php">Sair</a></h2>
-
 
 
 <!DOCTYPE html>
@@ -42,33 +40,21 @@ exit;
   </head>
 <body>
 
-    <header>
-        <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
-            <a class="navbar-brand" href="index.html">
-              <img id="logo" src="imagem/logo_educa_play-branco.png" alt="Educa Play">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-              <div class="navbar-nav">
-              <a class="nav-item nav-link" id="home-menu" href="usuarios.php">Usuários</span></a>
-                <a class="nav-item nav-link" id="home-menu" href="index.html">Home</span></a>
-                <a class="nav-item nav-link" id="about-menu" href="#">Sobre</a> 
-                <a class="divisor" role="separator" href="#"></a>       
-                <a class="nav-item nav-link" id="subscribe-menu" href="cadastro.php">Cadastre-se</a>
-                <a class="nav-item nav-link" id="login-menu" href="login.php">Entrar</a>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </header>
+  <?php
+  
+    include('./components/navbar.html')
+  
+  ?>
+
+
+<h2><a href= "logout.php">Sair</a></h2>
+
 
       <main class="conteudoPrincipal">
 		<div class="container">
 			<h2 class="subtitulo">Suas Matérias</h2>
-			
+
+
 			<nav>
 				<ul class="conteudoPrincipal-cursos">
 					<li class="conteudoPrincipal-cursos-link"><a href="aulas.php">Português</a></li>
@@ -87,23 +73,6 @@ exit;
 				</ul>
 			</nav>
 		</div>
-		
-		<section class="videoSobre">
-			<div class="container">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/sP2kl0irjBQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				
-				<div class="videoSobre-sobre">
-					<h2 class="videoSobre-sobre-title">Sua Atividade desta Semana</h2>
-					<ul class="videoSobre-sobre-list">
-						<li class="videoSobre-sobre-item">Essa semana iremos tratar de todos <br>
-                            os conceitos econômicos, políticos e <br>
-                            culturais desse período tão importante <br>
-                            da história do Brasil</li>
-					</ul>
-					<button class="videoSobre-button">Iniciar Atividade</button>
-				</div>
-			</div>
-		</section>
 		
 	</main>
 

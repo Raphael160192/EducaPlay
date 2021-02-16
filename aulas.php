@@ -21,6 +21,13 @@
 
 <body>
 
+<?php
+
+  include('./components/navbar_aula.html')
+
+?>
+
+<!--
   <header>
     <div class="container" id="nav-container">
         <nav class="navbar navbar-expand-lg fixed-top">
@@ -43,6 +50,8 @@
       </nav>
     </div>
   </header>
+
+  -->
 
   
     <div class="container-fluid">
