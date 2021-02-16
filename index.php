@@ -145,21 +145,22 @@
                       </div>
                     </div>
 
-                    <div class="card" style="width: 18rem;">
-                      <img class="card-img-top" src="https://st2.depositphotos.com/2309453/5324/i/600/depositphotos_53241145-stock-photo-children-studying-in-kindergarten-school.jpg" alt="Imagem de capa do card">
+<div class="card" style="width: 16rem;">
+                      <img class="card-img-top" src="img/shoulder.jpg" alt="Imagem de capa do card">
                       <div class="card-body">
-                        <h5 class="card-title">Educação Integral</h5>
-                        <p class="card-text">Plano Nacional de Educação: Educação em tempo intgral em no mínino 50% das públicas do brasil
+                        <h5 class="card-title">Lições da pandemia: 73% dos professores querem usar mais tecnologia em aula</h5>
+                        <p class="card-text">O Brasil tem hoje 2,6 milhões de docentes. A maioria teve que se adaptar aos novos formatos de trabalho impostos pela pandemia.
                           </p>
                         <a href="#" class="btn btn-primary">Visitar</a>
                       </div>
                     </div>
 
-                    <div class="card" style="width: 18rem;">
-                      <img class="card-img-top" src="https://storage.googleapis.com/adm-portal.appspot.com/noticias/_imgHighlight/noticia_116557.jpg?mtime=20181102085423&focal=none" alt="Imagem de capa do card">
+                    <div class="card" style="width: 16rem;">
+                      <img class="card-img-top" src="img/children.jpg" alt="Imagem de capa do card">
                       <div class="card-body">
-                        <h5 class="card-title">Gamificação como estratégia de aprendizado</h5>
-                        <p class="card-text">Os jogos digitais estão cada vez mais presente na sociedade. Nas escolas não poderia ser diferente! Mas como será que funciona a gamificação na educação?</p>
+                        <h5 class="card-title">Tecnologia na sala de aula proporciona educação inovadora</h5>
+                        <p class="card-text">
+Neste período de pandemia, as instituições de ensino que já utilizavam os recursos tecnológicos integrados às suas metodologias se destacaram. </p>
                         <a href="#" class="btn btn-primary">Visitar</a>
                       </div>
                     </div>
@@ -167,8 +168,8 @@
                     </div>
                   </div>     
                 </div>
-            </div>
-  </main>       
+            </div>                                  
+                    </main>       
   
 
 <footer class="page-footer font-small blue-grey lighten-5">
