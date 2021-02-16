@@ -26,6 +26,11 @@
 <body> 
   <header style="background-color: #7DC2F7;">
     
+    <?php
+      include('./components/navbar.html')
+    ?>
+
+    <!-- 
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="index.html">
         <img id="logo" src="imagem/logo_educa_play-branco.png" alt="Educa Play">
@@ -36,23 +41,23 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Destaques</a>
+            <a class="nav-link" id="about-menu" href="#">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Preços</a>
+            <a class="nav-link" href="cadastro.php">Cadastre-se</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Desativado</a>
+            <a class="nav-link" href="login.php">Entrar</a>
           </li>
         </ul>
       </div>
     </nav>
 
 
-    <!-- 
+    
     <div class="container" id="nav-container">
         <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="index.html">

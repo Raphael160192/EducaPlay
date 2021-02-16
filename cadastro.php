@@ -16,27 +16,9 @@ session_start();
 </head>
 <body>
 
-<header>
-    <div class="container" id="nav-container">
-        <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="index.html">
-          <img id="logo" src="imagem/logo_educa_play-branco.png" alt="Educa Play">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" id="home-menu" href="index.html">Home</span></a>
-            <a class="nav-item nav-link" id="about-menu" href="#">Sobre</a> 
-            <a class="divisor" role="separator" href="#"></a>       
-            <a class="nav-item nav-link" id="subscribe-menu" href="cadastro.php">Cadastre-se</a>
-            <a class="nav-item nav-link" id="login-menu" href="login.php">Entrar</a>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
+<?php
+      include('./components/navbar.html')
+    ?>
   
 
     <section id="section-cadastro">
