@@ -136,8 +136,9 @@
                 <div class="row">
                   <div class="col-md-12 d-flex justify-content-around flex-wrap" >
                     
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 17rem;">
                       <img class="card-img-top" src="https://happycodeschool.com/wp-content/uploads/2019/01/271590-escola-de-tecnologia-para-crianca-entenda-porque-e-importante-1080x675.jpg" alt="Imagem de capa do card">
+                      
                       <div class="card-body">
                         <h5 class="card-title">A tecnologia a favor da educação</h5>
                         <p class="card-text">As ferramentas de tecnologia tem a capacidade de oferecer a qualidade na educação, além de aproximar a escola do universo do aluno.</p>
