@@ -15,7 +15,7 @@ $email =  $_POST['email'];
 $senha = md5($_POST['senha']);
 $confirmaSenha =md5($_POST['confirmaSenha']);
 
-if (strlen($nome) > 3 && strlen($email) > 3 && strlen($senha) > 3 && $senha == $confirmaSenha){
+if (strlen($nome) > 3 && strlen($email) > 3 && strlen($senha) > 3 && $senha == $confirmaSenha && strlen($cpf) ==11){
   $senha_cripto = md5($senha);
 
     $conexao = mysqli_connect("localhost","root","","educaplay");
@@ -29,6 +29,7 @@ if (strlen($nome) > 3 && strlen($email) > 3 && strlen($senha) > 3 && $senha == $
     </script>";
 }
 
+
 else if ($senha != $confirmaSenha){
 
     echo "<script> alert('As senhas não conferem, tente novamente!')
@@ -37,7 +38,8 @@ else if ($senha != $confirmaSenha){
     </script>";
 }
 
-else if (strlen($nome)<= 3){
+
+else if (strlen($nome)== 11){
     echo "<script> alert('Digite um nome valido para cadastrar')
     window.location.href='cadastro.php'
     
@@ -51,6 +53,13 @@ else if (strlen($email)<= 3){
     
     </script>";
 }
+else if (strlen($cpf)<= 11){
+    echo "<script> alert('Digite seu cpf completo com 11 digitos!')
+    window.location.href='cadastro.php'
+    
+    </script>";
+}
+
 
 else if (strlen($senha)<= 3){
 echo 'digite uma senha valida';
@@ -58,25 +67,7 @@ echo 'digite uma senha valida';
 }
 
 
-//deletar dados
-//   $sql = "DELETE FROM usuario where id ='50'";
-//   $resultado=mysqli_query($conexao,$sql);
-
-//  atualizar dados
-//  $sql = "UPDATE usuario SET nome = 'lua' WHERE id= '51' ";
-//  $resultado=mysqli_query($conexao,$sql);
-
-//  if($resultado){
-//     echo "cadastro atualiado com sucesso";
-//  }else{
-//     echo "cadastro nao atualizado";
-// };
 
 
 
-
-// mysqli_close($conexao);
-
-
-// 
 
