@@ -30,14 +30,61 @@
       include('./components/navbar.html')
     ?>
 
+    <!-- 
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html">
+        <img id="logo" src="imagem/logo_educa_play-branco.png" alt="Educa Play">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="about-menu" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cadastro.php">Cadastre-se</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.php">Entrar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
     
+    <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="imagem/logo_educa_play-branco.png" alt="Educa Play">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu" href="index.html">Home</span></a>
+            <a class="nav-item nav-link" id="about-menu" href="#">Sobre</a> 
+            <a class="divisor" role="separator" href="#"></a>       
+            <a class="nav-item nav-link" id="subscribe-menu" href="cadastro.php">Cadastre-se</a>
+            <a class="nav-item nav-link" id="login-menu" href="login.php">Entrar</a>
+          </div>
+        </div>
+      </nav>
+    </div> 
+    -->
   </header>
 
   
   <main>
     <div class="container-fluid">
       <!-- slider -->
-      <div id="mainSlider" class="carousel slid e" data-ride="carousel">
+      <div id="mainSlider" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
           <li data-target="#mainSlider" data-slide-to="1"></li>
@@ -46,29 +93,20 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="img/1.jpg" class="d-block w-100">
-            <div class="carousel-caption d-md-block">
-              <h2>Educação a um clique!</h2>          
-              <p></p>
-              
+            <div class="carousel-caption d-md-block">                         
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/2.jpg" class="d-block w-100">
+            <div class="carousel-caption d-md-block">                         
             </div>
           </div>
           <div class="carousel-item">
             <img src="img/3.jpg" class="d-block w-100">
-            <div class="carousel-caption d-md-block">
-              <h2>Quer se preparar para o vestibular?</h2>
-              <p></p>
-              
+            <div class="carousel-caption d-md-block">             
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="img/5.jpg" class="d-block w-100">
-            <div class="carousel-caption d-md-block">
-              <h2>Comece a estudar hoje</h2>
-              <p></p>
-              
-            </div>
-          </div>
-        </div>
+        </divs>
        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -90,7 +128,7 @@
                 <img class="img-fluid" src="img/7.jpeg">
               </div>
               <div class="col-md-6">
-                <h3 class="about-title">Uma plataforma que...</h3>
+                
                 <p>Educa Play é uma plataforma que tem por foco oferecer educação de qualidade em período integral para todos.
                   Utiliza elementos tecnológicos, como a Gamificação, promovendo a motivação e incentivando o engajamento dos alunos, 
                   por meio de atividades realizadas em grupo. Além disso, o Educa Play conta com um espaço interativo para os professores postarem videoaulas, 
@@ -113,15 +151,15 @@
 
 
   <section class="videoSobre" style="background-color: #7DC2F7">
-    <div class="container d-flex justify-content-between">
-      <iframe  class="container-fluid "  src="https://www.youtube.com/embed/L-rib0V4dxY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/L-rib0V4dxY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
       <div class="videoSobre-sobre">
-        <h2 class="videoSobre-sobre-title">Por Que os Videogames São Bons Para o  Cérebro e Para o Corpo</h2>
+        <h2 class="videoSobre-sobre-title">Por que os videogames são bons para o <br> cérebro e para o corpo</h2>
         <div class="videoSobre-sobre-list">
           <p class="videoSobre-sobre-item">Dizem que videogame não faz bem para você. Dizem que é ruim para os olhos, <br>
-             a coluna e a vida social. Mas, ei, aproveite para mostrar a esses estraga-prazeres <br>
-              este vídeo, e prove a eles que existem muitas razões pelas quais eles estariam <br>
+             a coluna e a vida social. Mas, ei, aproveite para mostrar à esses estraga-prazeres <br>
+              este vídeo, e prove à eles que existem muitas razões pelas quais eles estariam <br>
                melhor se jogassem videogame!</p>
                
           </div>
@@ -138,15 +176,14 @@
                     
                     <div class="card" style="width: 17rem;">
                       <img class="card-img-top" src="https://happycodeschool.com/wp-content/uploads/2019/01/271590-escola-de-tecnologia-para-crianca-entenda-porque-e-importante-1080x675.jpg" alt="Imagem de capa do card">
-                      
                       <div class="card-body">
                         <h5 class="card-title">A tecnologia a favor da educação</h5>
-                        <p class="card-text">As ferramentas de tecnologia tem a capacidade de oferecer a qualidade na educação, além de aproximar a escola do universo do aluno.</p>
+                        <p class="card-text">As ferramentas de tecnologia tem a capacidade de oferecer a qualidade na educação, além de aproximar a escola do universo do aluno.</p></br></br>
                         <a href="#" class="btn btn-primary">Visitar</a>
                       </div>
                     </div>
 
-<div class="card" style="width: 16rem;">
+                    <div class="card" style="width: 16rem;">
                       <img class="card-img-top" src="img/shoulder.jpg" alt="Imagem de capa do card">
                       <div class="card-body">
                         <h5 class="card-title">Lições da pandemia: 73% dos professores querem usar mais tecnologia em aula</h5>
@@ -169,8 +206,8 @@ Neste período de pandemia, as instituições de ensino que já utilizavam os re
                     </div>
                   </div>     
                 </div>
-            </div>                                  
-                    </main>       
+            </div>
+  </main>       
   
 
 <footer class="page-footer font-small blue-grey lighten-5">
@@ -293,7 +330,7 @@ Neste período de pandemia, as instituições de ensino que já utilizavam os re
 
 
   <div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright:
-    <a class="dark-grey-text" href="https://mdbootstrap.com/"> EducaPlay.com</a>
+    <a class="dark-grey-text" href="https://mdbootstrap.com/"> educaplay.com</a>
   </div>
 
 
