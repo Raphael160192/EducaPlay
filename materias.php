@@ -51,27 +51,77 @@ exit;
 
 
       <main class="conteudoPrincipal">
-		<div class="container">
-			<h2 class="subtitulo">Suas Matérias</h2>
+
+      <h2 class="subtitulo">Suas Matérias</h2>
+
+		<div class="container d-flex justify-content-between flex-wrap">
+			
+
+      <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">Título do card</h5>
+    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+    <a href="#" class="btn btn-primary">Visitar</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">Título do card</h5>
+    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+    <a href="#" class="btn btn-primary">Visitar</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">Título do card</h5>
+    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+    <a href="#" class="btn btn-primary">Visitar</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">Título do card</h5>
+    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+    <a href="#" class="btn btn-primary">Visitar</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">Título do card</h5>
+    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+    <a href="#" class="btn btn-primary">Visitar</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">Título do card</h5>
+    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+    <a href="#" class="btn btn-primary">Visitar</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">Título do card</h5>
+    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+    <a href="#" class="btn btn-primary">Visitar</a>
+  </div>
+</div>
+			
 
 
-			<nav>
-				<ul class="conteudoPrincipal-cursos">
-					<li class="conteudoPrincipal-cursos-link"><a href="aulas.php">Português</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Matemática</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Biologia</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Física</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Química</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Geografia</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">História</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Sociologia</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Artes</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Gestão Financeita</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Programação WEB</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Empreendedorismo</a></li>
-
-				</ul>
-			</nav>
 		</div>
 		
 	</main>
