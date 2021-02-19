@@ -44,11 +44,15 @@
 
               <div style="background-color:	#606060; height:900px" class="col-md-3">
 
-            <img class="container-fluid" style="border-radius:200px" src="./imagem/professora.png" alt="">
+            <img class="container-fluid p-5" style="border-radius:200px" src="./imagem/professora.png" alt="">
 
-            <h2 style="color:black">Marcela de Oliveira</h2>
+            <h2 style="color:#F8F8F8; text-align:center; font weight: bold; text-shadow: black 0.1em 0.1em 0.2em">Marcela de Oliveira</h2>
 
-              <div class="list-group">
+            <h4 style="color:#F8F8F8; text-align:center; font weight: bold; text-shadow: black 0.1em 0.1em 0.2em">EMEF Manoel Bandeira</h4>
+
+            <h4 style="color:#F8F8F8; text-align:center; font weight: bold; text-shadow: black 0.1em 0.1em 0.2em">Fortaleza - Ceará</h4>
+
+              <div class="list-group mt-5">
               <button type="button" class="list-group-item list-group-item-action">Cras justo odio</button>
               <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
               <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
@@ -57,13 +61,76 @@
               </div>
               
               
-              </div>
+              </div class="mb-5">
 
-              <div class="col-md-9 d-flex justify-content-center">
+              <div class="col-md-8">
                 
-              <h2 class="mb-3" style="color: black"> <strong><img style="width:7%; heigth:7%" src="./imagem/star.svg" alt="">Quem me dera ao menos<img style="width:7%; heigth:7%" src="./imagem/star.svg" alt=""></strong> </h2>
+              <h2 class="m-5" style="color: black"> <strong><img style="width:7%; heigth:7%" src="./imagem/star.svg" alt="">Atividades e recursos utilizados<img style="width:7%; heigth:7%" src="./imagem/star.svg" alt=""></strong> </h2>
+              
+              
+              <div class="m-4 d-flex align-items-center ">
+              <img class="mr-4" style="width:4%; heigth:4%" src="./imagem/check.svg" alt="">
+              <h5 class="mb-3" style="color: black"> <strong>Vídeo sobre danças típicas regionais</strong> </h5>
+              </div>
+
+              
+              <div class="m-4 d-flex align-items-center ">
+              <img class="mr-4" style="width:4%; heigth:4%" src="./imagem/check.svg" alt="">
+              <h5 class="" style="color: black"> <strong>Observação dos movimentos e estilo musical épico, bem como roupas e máscaras características.</strong> </h5>
+              </div>
+
+              
+              <div class="m-4 d-flex align-items-center ">
+              <img class="mr-4" style="width:4%; heigth:4%" src="./imagem/check.svg" alt="">
+              <h5 class="" style="color: black"> <strong>Pesquisa da dança bumba meu boi</strong> </h5>
+              </div>
+
+              
+              <div class="m-4 d-flex align-items-center ">
+              <img class="mr-4" style="width:4%; heigth:4%" src="./imagem/check.svg" alt="">
+              <h5 class="" style="color: black"> <strong>Vídeo de dança Romeu e Julieta (Projeto Romeu e Julieta)</strong> </h5>
+              </div>
+
+
+
+              <div style="margin-top:115px" class="col-md-12 d-flex justify-content-between">
+
+              <div>
+              <img class="" style="width:30%; heigth:30%" src="./imagem/danca-de-rua.svg" alt="">
+              <h4>Reconhecer diferentes formas de orientações no espaço </h4> 
+              </div>
+
+              <div>
+              <img style="width:30%; heigth:30%" src="./imagem/danca-de-rua.svg" alt="">
+              <h4>Reconhecer diferentes formas de orientações no espaço </h4>  
+              </div>
+
+              <div>
+              <img style="width:30%; heigth:30%" src="./imagem/danca-de-rua.svg" alt="">
+              <h4>Reconhecer diferentes formas de orientações no espaço </h4>  
+              </div>
+
+              
+              </div>
+
+              
+
+
+
+
 
               </div>
+
+
+              
+
+
+              </div>
+
+
+              
+
+
 
               </div>
             </div>
