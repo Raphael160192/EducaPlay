@@ -30,54 +30,6 @@
       include('./components/navbar.html')
     ?>
 
-    <!-- 
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="index.html">
-        <img id="logo" src="imagem/logo_educa_play-branco.png" alt="Educa Play">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="about-menu" href="#">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cadastro.php">Cadastre-se</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="login.php">Entrar</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-
-    
-    <div class="container" id="nav-container">
-        <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="index.html">
-          <img id="logo" src="imagem/logo_educa_play-branco.png" alt="Educa Play">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" id="home-menu" href="index.html">Home</span></a>
-            <a class="nav-item nav-link" id="about-menu" href="#">Sobre</a> 
-            <a class="divisor" role="separator" href="#"></a>       
-            <a class="nav-item nav-link" id="subscribe-menu" href="cadastro.php">Cadastre-se</a>
-            <a class="nav-item nav-link" id="login-menu" href="login.php">Entrar</a>
-          </div>
-        </div>
-      </nav>
-    </div> 
-    -->
   </header>
 
   
@@ -120,34 +72,45 @@
 
 
       <div id="about-area">
-        <div class="container">
-            <div class="row">
+        
+            <div class=" container row d-flex justify-space-between">
               <div class="col-12"> 
-                <h3 class="main-title">Sobre a plataforma</h3>
+                <h3 class="main-title">Sobre a Ensino Criativo</h3>
               </div>
+
               <div class="col-md-6">
-                <img class="img-fluid" src="img/7.jpeg">
+                <img class="img-fluid" src="imagem/20945183.jpg">
               </div>
+
               <div class="col-md-6">
                 
-                <p>Educa Play é uma plataforma que tem por foco oferecer educação de qualidade em período integral para todos.
-                  Utiliza elementos tecnológicos, como a Gamificação, promovendo a motivação e incentivando o engajamento dos alunos, 
-                  por meio de atividades realizadas em grupo. Além disso, o Educa Play conta com um espaço interativo para os professores postarem videoaulas, 
-                  às quais o aluno pode consultar sempre que precisar!
+              <h2 class="mb-3"> <strong><img style="width:7%; heigth:7%" src="./imagem/star.svg" alt="">Quem me dera ao menos<img style="width:7%; heigth:7%" src="./imagem/star.svg" alt=""></strong> </h2>
 
-                </p>
- 
-                <p>Aqui temos:</p>
-                <ul id="about-list">
-                  <li><i class="fas fa-check"></i> Reforço escolar </li>
-                  <li><i class="fas fa-check"></i> Melhora da sua memória </li>
-                  <li><i class="fas fa-check"></i> Trabalho em Equipe </li>
-                  <li><i class="fas fa-check"></i> Conquistas </li>
-                  <li><i class="fas fa-check"></i> Muitos Desafios </li>
-                </ul>
+              <div class="mb-3">
+            <p style="font-size: 16px; font-weight: bold"> A Plataforma Ensino Criativo é uma rede colabotiva para professores de escolas públicas e privadas.
+                Se conecte com docentes de todo o Brasil e tenha dentro da sua sala de aula, as melhores práticas educacionais </p>
+                </div>
+
+                <div class="mb-3 d-flex align-items-center">
+            <img class="pr-2" style="width:7%; heigth:7%" src="./imagem/share.svg" alt="">
+            <p  style="font-size: 16px; font-weight: bold"> Compartilhe suas atividades pedagógicas para que outros professores apliquem, e dê feedback sobre os resultados. </p>
+                </div>
+
+                <div class="mb-3 d-flex align-items-center">
+            <img class="pr-2" style="width:7%; heigth:3%" src="./imagem/growth.svg" alt="">
+            <p style="font-size: 16px; font-weight: bold"> Aproveite atvidades com melhores avaliações, e aumente a qualidade das suas aulas. </p>
+                </div>
+
+                <div class="mb-3 d-flex align-items-center">
+            <img class="pr-2" style="width:7%; heigth:7%" src="./imagem/graduate.svg" alt="">
+            <p style="font-size: 16px; font-weight: bold"> Conheça as práticas dos professores das melhores escolas, da sua região e de todo o Brasil. </p>
+                </div>
+                
+
+
               </div>
             </div>
-          </div>
+          
       </div>
 
 
@@ -198,7 +161,7 @@
                       <div class="card-body">
                         <h5 class="card-title">Tecnologia na sala de aula proporciona educação inovadora</h5>
                         <p class="card-text">
-Neste período de pandemia, as instituições de ensino que já utilizavam os recursos tecnológicos integrados às suas metodologias se destacaram. </p>
+                          Neste período de pandemia, as instituições de ensino que já utilizavam os recursos tecnológicos integrados às suas metodologias se destacaram. </p>
                         <a href="#" class="btn btn-primary">Visitar</a>
                       </div>
                     </div>
