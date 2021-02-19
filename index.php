@@ -98,7 +98,8 @@
            </div>
            <div class="carousel-item">
             <img src="img/2.jpg" class="d-block w-100">
-            <div class="carousel-caption d-md-block">                         
+            <div class="carousel-caption d-md-block">  
+              <p>Uma nova forma de trabalhar<p>
             </div>
            </div>
            <div class="carousel-item">
