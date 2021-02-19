@@ -56,7 +56,8 @@
            </div>
            <div class="carousel-item">
             <img src="img/mesa.jpg" class="d-block w-100">
-            <div class="carousel-caption d-md-block">             
+            <div class="carousel-caption d-md-block">    
+              <h2> Professores unidos pelo futuro da educação <h2>
             </div>
            </div>
         </div>
