@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+
+/* Barra de navegação */
+header, .navbar {
+    background-color: #7DC2F7;
+  }
+  
+  #nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 50px;
+  }
+  
+  #logo {
+    width: 110px;
+  }
+
+  .main-title {
+    color: #FD967E;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    padding: 0;
+    color: #fff;
+  }
+  
+  .navbar-brand:hover {
+    color: #fff;
+  }
+  
+  #navbar-links a {
+    color: #fff;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+  }
+  
+  .nav-item.active {
+    border-bottom: 3px solid #fff;
+  }
+
+  .margem{
+    margin-top: 100px;
+}
+
+
+  aside {
+    position: fixed;
+    top: 5;
+    left: 0;
+    z-index: 999;
+    display: flex;
+}
+
+#menu-open {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#menu-area {
+    width: 0;
+    height: 100vh;
+    background-color: #7DC2F7;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all ease .5s;
+}
+
+
+#menu-area ul, #menu-area li {
+    padding: 0;
+    list-style: none;
+}
+
+#menu-area li {
+    display: block;
+    padding: 10px;
+    color: #f5f6fa;
+    cursor: pointer;
+}
+
+#menu-area li:hover {
+    background-color: #2e9cf0;
+}
+
+.menu-aberto {
+    width: 320px !important;
+}
+
+#tituloMateria{
+  color: #424242;
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.azul{
+  width: 750px;
+  height: 520px;
+  color: blue;
+  background: url("../geografia.jpg") no-repeat;
+}
+
+.vermelho{
+  width: 750px;
+  height: 520px;
+  color: red;
+  background: url("../portugues.jpg") no-repeat;
+}
+
+.verde{
+  width: 750px;
+  height: 520px;
+  color: blue;
+  background: url("../super_imgmatematica_-_calculo.jpg") no-repeat;
+}
+
+
+@media screen and (max-width: 580px) {
+  #tituloMateria{
+    color: #424242;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+}
