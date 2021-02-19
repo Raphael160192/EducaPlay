@@ -59,7 +59,7 @@ exit;
 
       <div class="card mb-5" style="width: 18rem;">
       <div>
-      <img class="card-img-top" src="./imagem/losa.jpg" alt="Imagem de capa do card">
+      <img class="card-img-top" src="./imagem/losa19.jpeg" alt="Imagem de capa do card">
       </div>
   <div class="card-body">
     <h5 class="card-title">Título do card</h5>
@@ -69,7 +69,7 @@ exit;
     </div>
 
 <div class="card mb-5" style="width: 18rem;">
-  <img class="card-img-top" src="./imagem/losa.jpg" alt="Imagem de capa do card">
+  <img class="card-img-top" src="./imagem/losa20.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
     <h5 class="card-title">Título do card</h5>
     <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
@@ -78,7 +78,7 @@ exit;
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
-  <img class="card-img-top" src="./imagem/losa.jpg" alt="Imagem de capa do card">
+  <img class="card-img-top" src="./imagem/losa13.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
     <h5 class="card-title">Título do card</h5>
     <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
@@ -87,7 +87,7 @@ exit;
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
-  <img class="card-img-top" src="./imagem/losa.jpg" alt="Imagem de capa do card">
+  <img class="card-img-top" src="./imagem/losa18.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
     <h5 class="card-title">Título do card</h5>
     <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
@@ -96,7 +96,7 @@ exit;
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
-  <img class="card-img-top" src="./imagem/losa.jpg" alt="Imagem de capa do card">
+  <img class="card-img-top" src="./imagem/losa15.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
     <h5 class="card-title">Título do card</h5>
     <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
@@ -105,7 +105,7 @@ exit;
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
-  <img class="card-img-top" src="./imagem/losa.jpg" alt="Imagem de capa do card">
+  <img class="card-img-top" src="./imagem/losa16.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
     <h5 class="card-title">Título do card</h5>
     <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
