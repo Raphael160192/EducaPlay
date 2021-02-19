@@ -2,10 +2,11 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #F5F4F6;
+
   }
 
 h2 {
-  color: #424242;
+  color: #fff;
 }
 
 .row {
@@ -13,8 +14,9 @@ h2 {
 }
 
 .container {
-  padding: 70px 0;
+  padding: 20px 0;
 }
+
 
 p, li {
   color: #424242;
@@ -71,7 +73,7 @@ header, .navbar {
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
-  height: 75vh;
+  height: 80vh;
 }
 
 #mainSlider .carousel-caption {
@@ -79,15 +81,18 @@ header, .navbar {
 }
 
 #mainSlider .carousel-caption h2 {
-  font-size: 50px;
+  font-size:80px;
   margin-bottom: 30px;
-}
+  color: #fff;
+  font-weight: 300;
+
+ }
 
 #mainSlider .carousel-caption p {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 300;
-  margin-bottom: 100px;
-  color: #fff;
+  margin-bottom: 30px;
+  color: #424242;
 }
 
 .main-btn {
@@ -110,7 +115,7 @@ header, .navbar {
 }
 
 .carousel-indicators .active {
-  background-color:#F4E04D;
+  background-color:#fff;
 }
 
 /* Sobre o Educa Play */
@@ -128,12 +133,13 @@ header, .navbar {
 
 .main-title::after {
   content: "";
-  border-top: 2px solid #424242;
   width: 15%;
   position: absolute;
   top: 60px;
   left: 42.5%;
 }
+
+
 
 .about-title {
   font-size: 17px;
@@ -211,3 +217,14 @@ header, .navbar {
 #copy-area .container p {
   margin-bottom: 0;  
 }
+
+/* slider */
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+  height: auto;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 40px;
+}
+
+@media(max-width: 425px) 

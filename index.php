@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Educa Play - educação a um clique</title>
+  <title>Ensino Criativo</title>
   <!-- Fonte -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
   <!-- Estilos -->
@@ -35,30 +35,31 @@
   
   <main>
     <div class="container-fluid">
-      <!-- slider -->
       <div id="mainSlider" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
           <li data-target="#mainSlider" data-slide-to="1"></li>
           <li data-target="#mainSlider" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/1.jpg" class="d-block w-100">
-            <div class="carousel-caption d-md-block">                         
+      <div class="carousel-inner">
+          <div class="carousel-item active">             
+            <img src="img/teach.jpg" class="d-block w-100">
+            <div class="carousel-caption d-md-block">  
+              <h2>Um novo jeito de educar</h2>                               
             </div>
-          </div>
-          <div class="carousel-item">
+           </div>
+           <div class="carousel-item">
             <img src="img/2.jpg" class="d-block w-100">
-            <div class="carousel-caption d-md-block">                         
+            <div class="carousel-caption d-md-block">  
+              <p>Uma nova forma de trabalhar<p>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/3.jpg" class="d-block w-100">
+           </div>
+           <div class="carousel-item">
+            <img src="img/mesa.jpg" class="d-block w-100">
             <div class="carousel-caption d-md-block">             
             </div>
-          </div>
-        </divs>
+           </div>
+        </div>
        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -67,7 +68,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>       
+      </div> 
 
 
       <div id="about-area">
@@ -113,17 +114,16 @@
       </div>
 
 
-  <section class="videoSobre" style="background-color: #7DC2F7">
+<section class="videoSobre" style="background-color: #7DC2F7">
     <div class="container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jEX9-hS_Fdw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/E8NlU_07XRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
       <div class="videoSobre-sobre">
-        <h2 class="videoSobre-sobre-title">Por que os videogames são bons para o <br> cérebro e para o corpo</h2>
+        <h2 class="videoSobre-sobre-title">Ensino Híbrido – Personalização e Tecnologia na educação</h2>
         <div class="videoSobre-sobre-list">
-          <p class="videoSobre-sobre-item">Dizem que videogame não faz bem para você. Dizem que é ruim para os olhos, <br>
-             a coluna e a vida social. Mas, ei, aproveite para mostrar à esses estraga-prazeres <br>
-              este vídeo, e prove à eles que existem muitas razões pelas quais eles estariam <br>
-               melhor se jogassem videogame!</p>
+          <p class="videoSobre-sobre-item">Hoje, com a internet, as informações estão disponíveis para qualquer pessoa, em qualquer lugar.<br> 
+             Novas formas de aprender e ensinar, levam o educador a refletir<br>sobre as possibilidades de integração das novas tecnologias digitais ao ensino. <br>
+              Assista ao vídeo para entender melhor sobre o assunto.</p>
                
           </div>
 
@@ -178,7 +178,7 @@
     <div class="container">
       <div class="row py-4 d-flex align-items-center">
         <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-          <h6 class="mb-0">Entre também nas nossas redes sociais</h6>
+          <h6 class="mb-0">Nos acompanhe nas redes sociais</h6>
         </div>
 
         <div class="col-md-6 col-lg-7 text-center text-md-right">
@@ -218,7 +218,7 @@
       <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
 
 
-        <h6 class="text-uppercase font-weight-bold">EducaPlay</h6>
+        <h6 class="text-uppercase font-weight-bold">Ensino Criativo</h6>
         <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>Uma plataforma digital para fortalecer seus conhecimentos, á um click de disntancia. Compromisso 
           máximo com o seu desenvolvimento escolar. Educação de qualidade para todos.
@@ -277,7 +277,7 @@
         <p>
           <i class="fas fa-home mr-3"></i> Av. Paulista, 1500 - São Paulo</p>
         <p>
-          <i class="fas fa-envelope mr-3"></i> contato@educaplay.com.br</p>
+          <i class="fas fa-envelope mr-3"></i> contato@ensinocriativo.com.br</p>
         <p>
           <i class="fas fa-phone mr-3"></i> (11) 98500-1000</p>
         <p>
@@ -293,7 +293,7 @@
 
 
   <div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright:
-    <a class="dark-grey-text" href="https://mdbootstrap.com/"> educaplay.com</a>
+    <a class="dark-grey-text" href="https://mdbootstrap.com/"> ensinocriativo.com</a>
   </div>
 
 
