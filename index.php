@@ -56,7 +56,8 @@
            </div>
            <div class="carousel-item">
             <img src="img/mesa.jpg" class="d-block w-100">
-            <div class="carousel-caption d-md-block">             
+            <div class="carousel-caption d-md-block">    
+              <h2> Professores unidos pelo futuro da educação <h2>
             </div>
            </div>
         </div>
@@ -84,7 +85,7 @@
 
               <div class="col-md-6">
                 
-              <h2 class="mb-3"> <strong><img style="width:7%; heigth:7%" src="./imagem/star.svg" alt="">Quem me dera ao menos<img style="width:7%; heigth:7%" src="./imagem/star.svg" alt=""></strong> </h2>
+              <h2 class="mb-3" style="color:black"> <strong><img style="width:7%; heigth:7%;" src="./imagem/star.svg" alt="">Conectando e compartilhando conhecimento<img style="width:7%; heigth:7%" src="./imagem/star.svg" alt=""></strong> </h2>
 
               <div class="mb-3">
             <p style="font-size: 16px; font-weight: bold"> A Plataforma Ensino Criativo é uma rede colabotiva para professores de escolas públicas e privadas.
