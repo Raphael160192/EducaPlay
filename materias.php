@@ -52,7 +52,7 @@ exit;
 
       <main class="conteudoPrincipal">
 
-      <h2 class="subtitulo">Suas Matérias</h2>
+      <h2 class="subtitulo" style="color:#7DC2F7;">Suas Matérias</h2>
 
 		<div class="container d-flex justify-content-between flex-wrap  ">
 			
