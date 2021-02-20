@@ -1,5 +1,5 @@
 <?php
-  include("dbcomentario.php");
+  //include("dbcomentario.php");
   ?>
 
 <!DOCTYPE html>
@@ -100,7 +100,7 @@
   <input class="btn btn-primary" type="submit" name="submit" value="Enviar">
   
   </form>
-  <?php
+  <?php/*
     $sql = "select * from comentario";
     $result = $conexao->query($sql);
 
@@ -113,7 +113,7 @@
     }
       else{
         echo "Nenhum comentário!";
-      }
+      }*/
   ?>
  </div>
 <br><br>

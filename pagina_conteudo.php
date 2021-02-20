@@ -1,3 +1,7 @@
+<?php
+  include("dbcomentario.php");
+  ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -134,7 +138,36 @@
 
               </div>
             </div>
-          
+            
+  <div class="container-fluid bg-light" style="margin-left: 10px">
+  <br>
+  <h1>Comentários</h1>
+ 
+  <form nome="comentario" action="pagina_conteudo.php" method="POST">
+  Nome: <br>
+  <input type="text" style="width:400px; border-radius: 4px; background-color: #DCDCDC;" name="nome"><br>
+  Mensagem: <br>
+  <textarea name="msg" style="width:400px; height: 100px; border-radius: 4px; background-color: #DCDCDC;"></textarea><br>
+  <input class="btn btn-primary" type="submit" name="submit" value="Enviar">
+  
+  </form>
+  <?php
+    $sql = "select * from comentario";
+    $result = $conexao->query($sql);
+
+    if($result->num_rows > 0){
+      while($rows = $result->fetch_assoc()){
+        echo "Nome: ", $rows['nome'], "<br>";
+        echo "Comentário: ", $rows['msg'], "<br>";
+        echo "<hr>";
+      }
+    }
+      else{
+        echo "Nenhum comentário!";
+      }
+  ?>
+ </div>
+<br><br>
       
 
 

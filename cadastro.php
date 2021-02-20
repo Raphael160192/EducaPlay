@@ -24,7 +24,7 @@ session_start();
     <section id="section-cadastro">
       <div class="div-texto-cadastro">
         <h1 class="div-texto-cadastro1">Cadastre-se</h1>
-        <h2 class="div-texto-cadastro2">no Educa Play</h2>
+        <h2 class="div-texto-cadastro2">no Ensino Criativo</h2>
       </div>
 
       <div class="div-img-cadastro">

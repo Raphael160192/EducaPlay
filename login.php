@@ -26,16 +26,8 @@ session_start();
     <section id="section-login">
      
       <div class="bloco_card">
-        <div class="card" style="width: 14rem;">
-          <img src="imagem/undraw_product_iteration_kjok.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Administrador</p>
-        </div>
-      </div>  
 
-      <br>
-
-      <div class="card" style="width: 16rem;">
+      <div class="card" style="width: 20rem;">
         <img src="imagem/undraw_teacher_35j2 (1).png" class="card-img-top" alt="...">
         <div class="card-body">
           <br>
@@ -43,14 +35,6 @@ session_start();
         </div>
       </div> 
 
-      <br>
-
-      <div class="card" style="width: 14rem;">
-        <img src="imagem/undraw_group_selfie_ijc6.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Aluno</p>
-        </div>
-      </div> 
     </div>
       
       <div class="div-form-login">
