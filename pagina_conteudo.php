@@ -105,13 +105,13 @@
               </div>
 
               <div>
-              <img style="width:30%; heigth:30%" src="./imagem/danca-de-rua.svg" alt="">
-              <h4>Reconhecer diferentes formas de orientações no espaço </h4>  
+              <img style="width:35%; heigth:35%" src="./imagem/danca.svg" alt="">
+              <h4>Reconhecer os ritmos de movimentos </h4>  
               </div>
 
               <div>
-              <img style="width:30%; heigth:30%" src="./imagem/danca-de-rua.svg" alt="">
-              <h4>Reconhecer diferentes formas de orientações no espaço </h4>  
+              <img style="width:30%; heigth:30%" src="./imagem/literatura.svg" alt="">
+              <h4>Reconhecer as culturas e as diferenças regionais </h4>  
               </div>
 
               
