@@ -38,32 +38,40 @@ $id = $_POST['atualizar'];
 <body>
 
 <header>
-    <div class="container" id="nav-container">
-        <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="index.html">
-          <img id="logo" src="imagem/logo_educa_play-branco.png" alt="Educa Play">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.php">
+          <img classe="logo" src="imagem/logoNovo.PNG" width="150px" alt="Educa Play">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" id="home-menu" href="index.html">Home</span></a>
-            <a class="nav-item nav-link" id="about-menu" href="#">Sobre</a> 
-            <a class="divisor" role="separator" href="#"></a>       
-            <a class="nav-item nav-link" id="subscribe-menu" href="cadastro.php">Cadastre-se</a>
-            <a class="nav-item nav-link" id="login-menu" href="login.php">Entrar</a>
-          </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" id="about-menu" href="usuarios.php">Usuários</a>
+            </li>  
+          <li class="nav-item active">
+              <a class="nav-link" href="index.php">Home <span class="sr-only">(Página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="about-menu" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cadastro.php">Cadastre-se</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.php">Entrar</a>
+            </li>
+          </ul>
         </div>
       </nav>
-    </div>
-  </header>
+    </header>
   
 
     <section id="section-cadastro">
       <div class="div-texto-cadastro">
         <h1 class="div-texto-cadastro1">Atualize seu cadastro</h1>
-        <h2 class="div-texto-cadastro2">no Educa Play</h2>
+        <h2 class="div-texto-cadastro2">no Ensino Criativo</h2>
       </div>
 
       <div class="div-img-cadastro">
