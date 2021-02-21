@@ -27,11 +27,11 @@ session_start();
      
       <div class="bloco_card">
 
-      <div class="card" style="width: 20rem;">
+      <div class="card" style="width: 30rem;">
         <img src="imagem/undraw_teacher_35j2 (1).png" class="card-img-top" alt="...">
         <div class="card-body">
           <br>
-          <p class="card-text">Professor</p>
+          <p class="card-text" style="text-align: center;">Professor</p>
         </div>
       </div> 
 

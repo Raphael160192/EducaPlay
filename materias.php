@@ -52,7 +52,7 @@ exit;
 
       <main class="conteudoPrincipal">
 
-      <h2 class="subtitulo">Suas Matérias</h2>
+      <h2 class="subtitulo" style="color:#7DC2F7;">Suas Matérias</h2>
 
 		<div class="container d-flex justify-content-between flex-wrap  ">
 			
@@ -62,72 +62,72 @@ exit;
       <img class="card-img-top" src="./imagem/losa19.jpeg" alt="Imagem de capa do card">
       </div>
   <div class="card-body">
-    <h5 class="card-title">Título do card</h5>
-    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-    <a href="pagina_conteudo.php" class="btn btn-primary">Visitar</a>
+    <h5 class="card-title">Ligua Portuguesa</h5>
+    <p class="card-text">Interpretação de texto</p>
+    <a href="pagina_conteudo.php" class="btn btn-primary">Entrar</a>
   </div>
     </div>
 
 <div class="card mb-5" style="width: 18rem;">
   <img class="card-img-top" src="./imagem/losa20.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Título do card</h5>
-    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-    <a href="#" class="btn btn-primary">Visitar</a>
+    <h5 class="card-title">História</h5>
+    <p class="card-text">Cultura brasileira</p>
+    <a href="#" class="btn btn-primary">Entrar</a>
   </div>
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
   <img class="card-img-top" src="./imagem/losa13.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Título do card</h5>
-    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-    <a href="#" class="btn btn-primary">Visitar</a>
+    <h5 class="card-title">Geografia</h5>
+    <p class="card-text">Desmatamento</p>
+    <a href="#" class="btn btn-primary">Entrar</a>
   </div>
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
   <img class="card-img-top" src="./imagem/losa18.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Título do card</h5>
-    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-    <a href="#" class="btn btn-primary">Visitar</a>
+    <h5 class="card-title">Matemática</h5>
+    <p class="card-text">equações de 1º e 2º grau</p>
+    <a href="#" class="btn btn-primary">Entrar</a>
   </div>
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
   <img class="card-img-top" src="./imagem/losa15.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Título do card</h5>
-    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-    <a href="#" class="btn btn-primary">Visitar</a>
+    <h5 class="card-title">Biologia</h5>
+    <p class="card-text">Formação H2O</p>
+    <a href="#" class="btn btn-primary">Entrar</a>
   </div>
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
   <img class="card-img-top" src="./imagem/losa16.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Título do card</h5>
-    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-    <a href="#" class="btn btn-primary">Visitar</a>
+    <h5 class="card-title">Educação Física</h5>
+    <p class="card-text">Esportes e alimentação saudável</p>
+    <a href="#" class="btn btn-primary">Entrar</a>
   </div>
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
   <img class="card-img-top" src="./imagem/losa21.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Título do card</h5>
-    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-    <a href="#" class="btn btn-primary">Visitar</a>
+    <h5 class="card-title">Química</h5>
+    <p class="card-text">Propriedades da matéria</p>
+    <a href="#" class="btn btn-primary">Entrar</a>
   </div>
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
   <img class="card-img-top" src="./imagem/losa22.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Título do card</h5>
-    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-    <a href="#" class="btn btn-primary">Visitar</a>
+    <h5 class="card-title">Inglês</h5>
+    <p class="card-text">Conversação, escritua e leitura</p>
+    <a href="#" class="btn btn-primary">Entrar</a>
   </div>
 </div>
 
@@ -135,9 +135,9 @@ exit;
 
   <img class="card-img-top" src="./imagem/losa23.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Título do card</h5>
-    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-    <a href="#" class="btn btn-primary">Visitar</a>
+    <h5 class="card-title">Física</h5>
+    <p class="card-text">Teoria eletromagnética</p>
+    <a href="#" class="btn btn-primary">Entrar</a>
   </div>
 </div>
 			

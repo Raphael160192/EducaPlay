@@ -57,11 +57,11 @@
             <h4 style="color:#F8F8F8; text-align:center; font weight: bold; text-shadow: black 0.1em 0.1em 0.2em">Fortaleza - Ceará</h4>
 
               <div class="list-group mt-5">
-              <button type="button" class="list-group-item list-group-item-action">Cras justo odio</button>
-              <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
-              <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
-              <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
-              <button type="button" class="list-group-item list-group-item-action">Vestibulum at eros</button>
+              <button type="button" class="list-group-item list-group-item-action">Perfil</button>
+              <button type="button" class="list-group-item list-group-item-action">Formação</button>
+              <button type="button" class="list-group-item list-group-item-action">Disciplina</button>
+              <button type="button" class="list-group-item list-group-item-action">Conteúdos</button>
+              <button type="button" class="list-group-item list-group-item-action">Contato</button>
               </div>
               
               
@@ -145,12 +145,12 @@
  
   <form nome="comentario" action="pagina_conteudo.php" method="POST">
   Nome: <br>
-  <input type="text" style="width:400px; border-radius: 4px; background-color: #DCDCDC;" name="nome"><br>
+  <input type="text" style="width:400px; border-radius: 4px; background-color: #F5F5F5;" name="nome"><br>
   Mensagem: <br>
-  <textarea name="msg" style="width:400px; height: 100px; border-radius: 4px; background-color: #DCDCDC;"></textarea><br>
+  <textarea name="msg" style="width:400px; height: 100px; border-radius: 4px; background-color: #F5F5F5;"></textarea><br>
   <input class="btn btn-primary" type="submit" name="submit" value="Enviar">
-  
   </form>
+  <br>
   <?php
     $sql = "select * from comentario";
     $result = $conexao->query($sql);
