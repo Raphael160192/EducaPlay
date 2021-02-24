@@ -8,7 +8,8 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
@@ -20,24 +21,17 @@ session_start();
       include('./components/navbar.html')
     ?>
   
+<main>
 
-    <section id="section-cadastro">
-      <div class="div-texto-cadastro">
-        <h1 class="div-texto-cadastro1">Cadastre-se</h1>
-        <h2 class="div-texto-cadastro2">no Ensino Criativo</h2>
-      </div>
 
-      <div class="div-img-cadastro">
-        <img class="img-login-cadastro" src="imagem/undraw_Login_re_4vu2.png" alt="Imagem representa o cadastro uma entrada">
-      </div>
-
-    </section>
+    
     <section id="section-form-cadastro">
+
+          
         <div class="div-form-cadastro">
 
-
-
         <form method="post"  action="processa_cadastro.php">
+        <h2 class="m-5 text-center">Cadastro</h2>
             <div class="form-row">
               <div class="form-group col-md-6">
                 Nome<input name="nome" type="text" class="form-control" placeholder="Antonio"required>
@@ -95,8 +89,7 @@ session_start();
 
 
 
-
-    
+</main>
 
    
 
