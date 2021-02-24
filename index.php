@@ -115,10 +115,13 @@
       </div>
 
 
-<section class="videoSobre" style="background-color: #7DC2F7">
+<section class="videoSobre pt-4 pb-5" style="background-color: #7DC2F7">
     <div class="container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/E8NlU_07XRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
+
+    <div class=" container-fluid d-flex justify-content-center">
+    <iframe class="w-75" style="height:120%" src="https://www.youtube.com/embed/E8NlU_07XRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
       <div class="videoSobre-sobre">
         <h2 class="videoSobre-sobre-title">Ensino Híbrido – Personalização e Tecnologia na educação</h2>
         <div class="videoSobre-sobre-list">

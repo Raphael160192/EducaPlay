@@ -100,7 +100,7 @@
               <img class="mr-4" style="width:4%; heigth:4%" src="./imagem/check.svg" alt="">
               <h5 class="mb-3" style="color: black"> <strong>Vídeo sobre danças típicas regionais</strong> </h5>
               </div>
-
+  
               
               <div class="m-4 d-flex align-items-center ">
               <img class="mr-4" style="width:4%; heigth:4%" src="./imagem/check.svg" alt="">
