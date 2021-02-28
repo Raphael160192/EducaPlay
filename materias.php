@@ -40,35 +40,9 @@ exit;
   </head>
 <body>
 
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.php">
-          <img classe="logo" src="imagem/logoNovo.PNG" width="150px" alt="Educa Play">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-          <li class="nav-item">
-              <a class="nav-link" id="about-menu" href="usuarios.php">Usuários</a>
-            </li>  
-          <li class="nav-item active">
-              <a class="nav-link" href="index.php">Home <span class="sr-only">(Página atual)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="about-menu" href="#">Sobre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cadastro.php">Cadastre-se</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.php">Entrar</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+<?php
+      include('./components/navbar2.html')
+    ?>
 
 
 <h2><a href= "logout.php">Sair</a></h2>

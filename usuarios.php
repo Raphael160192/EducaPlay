@@ -33,9 +33,9 @@ if($apagar){
 </head>
 <body>
 
-<?php 
-    include('./components/navbar.html')
-?>
+<?php
+      include('./components/navbar2.html')
+    ?>
 
   <br><br><br>
 
