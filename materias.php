@@ -40,10 +40,86 @@ exit;
   </head>
 <body>
 
+<<<<<<< HEAD
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.php">
+          <img classe="logo" src="imagem/logoNovo.PNG" width="150px" alt="Educa Play">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Postagem
+  </button>
+  
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal" >Postagem</button>
+    
+    
+  </div>
+</div>
+          <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" id="about-menu" href="usuarios.php">Usuários</a>
+            </li>  
+          <li class="nav-item active">
+              <a class="nav-link" href="index.php">Home <span class="sr-only">(Página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="about-menu" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cadastro.php">Cadastre-se</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.php">Entrar</a>
+            </li>
+          </ul>
+    
+        </div>
+      </nav>
+    </header>
+=======
 <?php
       include('./components/navbar2.html')
     ?>
+>>>>>>> 57fb281a22976e421220436df17578439f504093
 
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Nova mensagem</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Nome:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Matéria:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Conteudo:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <h2><a href= "logout.php">Sair</a></h2>
 
@@ -63,6 +139,7 @@ exit;
     <h5 class="card-title">Ligua Portuguesa</h5>
     <p class="card-text">Interpretação de texto</p>
     <a href="pagina_conteudo.php" class="btn btn-primary">Entrar</a>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
   </div>
     </div>
 
@@ -72,6 +149,7 @@ exit;
     <h5 class="card-title">História</h5>
     <p class="card-text">Cultura brasileira</p>
     <a href="#" class="btn btn-primary">Entrar</a>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
   </div>
 </div>
 
@@ -81,6 +159,7 @@ exit;
     <h5 class="card-title">Geografia</h5>
     <p class="card-text">Desmatamento</p>
     <a href="#" class="btn btn-primary">Entrar</a>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
   </div>
 </div>
 
@@ -90,6 +169,7 @@ exit;
     <h5 class="card-title">Matemática</h5>
     <p class="card-text">equações de 1º e 2º grau</p>
     <a href="#" class="btn btn-primary">Entrar</a>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
   </div>
 </div>
 
@@ -99,6 +179,7 @@ exit;
     <h5 class="card-title">Biologia</h5>
     <p class="card-text">Formação H2O</p>
     <a href="#" class="btn btn-primary">Entrar</a>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
   </div>
 </div>
 
@@ -108,6 +189,7 @@ exit;
     <h5 class="card-title">Educação Física</h5>
     <p class="card-text">Esportes e alimentação saudável</p>
     <a href="#" class="btn btn-primary">Entrar</a>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
   </div>
 </div>
 
@@ -117,6 +199,7 @@ exit;
     <h5 class="card-title">Química</h5>
     <p class="card-text">Propriedades da matéria</p>
     <a href="#" class="btn btn-primary">Entrar</a>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
   </div>
 </div>
 
@@ -126,6 +209,7 @@ exit;
     <h5 class="card-title">Inglês</h5>
     <p class="card-text">Conversação, escritua e leitura</p>
     <a href="#" class="btn btn-primary">Entrar</a>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
   </div>
 </div>
 
@@ -136,6 +220,7 @@ exit;
     <h5 class="card-title">Física</h5>
     <p class="card-text">Teoria eletromagnética</p>
     <a href="#" class="btn btn-primary">Entrar</a>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
   </div>
 </div>
 			
