@@ -40,53 +40,20 @@ exit;
   </head>
 <body>
 
-<<<<<<< HEAD
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.php">
-          <img classe="logo" src="imagem/logoNovo.PNG" width="150px" alt="Educa Play">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Postagem
-  </button>
-  
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal" >Postagem</button>
-    
-    
+
+
+<?php
+      include('./components/navbarmaterias.html')
+    ?>
+
+<div class="jumbotron jumbotron-fluid bg-info">
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
+  <div class="container">
+    <h5 class="display-4" style="color:white">Pesquise sua matéria preferida!</h5>
+    <input type='text' placeholder='Faça sua pesquisa aqui' class="pesquisa- container"></input>
+
   </div>
 </div>
-          <ul class="navbar-nav">
-          <li class="nav-item">
-              <a class="nav-link" id="about-menu" href="usuarios.php">Usuários</a>
-            </li>  
-          <li class="nav-item active">
-              <a class="nav-link" href="index.php">Home <span class="sr-only">(Página atual)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="about-menu" href="#">Sobre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cadastro.php">Cadastre-se</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.php">Entrar</a>
-            </li>
-          </ul>
-    
-        </div>
-      </nav>
-    </header>
-=======
-<?php
-      include('./components/navbar2.html')
-    ?>
->>>>>>> 57fb281a22976e421220436df17578439f504093
 
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -133,83 +100,93 @@ exit;
 
       <div class="card mb-5" style="width: 18rem;">
       <div>
-      <img class="card-img-top" src="./imagem/losa19.jpeg" alt="Imagem de capa do card">
+       <img class="card-img-top" src="./imagem/losa19.jpeg" alt="Imagem de capa do card"> 
+      <!-- <h5> As primeiras embarcações</h5>
+      <p> Um teatro em grupo sobre a chegada das primeiras embarcações no Brasil</p> -->
       </div>
   <div class="card-body">
-    <h5 class="card-title">Ligua Portuguesa</h5>
-    <p class="card-text">Interpretação de texto</p>
+  <p class="card-text">Autor: Reseli braga</p>
+    <h5 class="card-title">Matéria: Ligua Portuguesa</h5>
+    <p class="card-text">Indicação: 8 a 10 anos</p>
     <a href="pagina_conteudo.php" class="btn btn-primary">Entrar</a>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
+   
   </div>
     </div>
 
 <div class="card mb-5" style="width: 18rem;">
-  <img class="card-img-top" src="./imagem/losa20.jpeg" alt="Imagem de capa do card">
+  <img class="card-img-top" src="./imagem/losa20.png" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">História</h5>
-    <p class="card-text">Cultura brasileira</p>
-    <a href="#" class="btn btn-primary">Entrar</a>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
+  <p class="card-text">Autor: Reseli braga</p>
+    <h5 class="card-title">Matéria: História</h5>
+    <p class="card-text">Indicação: 8 a 10 anos</p>
+    <a href="pagina_conteudo.php" class="btn btn-primary">Entrar</a>
+   
   </div>
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
   <img class="card-img-top" src="./imagem/losa13.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Geografia</h5>
-    <p class="card-text">Desmatamento</p>
-    <a href="#" class="btn btn-primary">Entrar</a>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
+  <p class="card-text">Autor: Reseli braga</p>
+    <h5 class="card-title">Matéria: Geografia</h5>
+    <p class="card-text">Indicação: 8 a 10 anos</p>
+    <a href="pagina_conteudo.php" class="btn btn-primary">Entrar</a>
+   
   </div>
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
   <img class="card-img-top" src="./imagem/losa18.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Matemática</h5>
-    <p class="card-text">equações de 1º e 2º grau</p>
-    <a href="#" class="btn btn-primary">Entrar</a>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
+  <p class="card-text">Autor: Reseli braga</p>
+    <h5 class="card-title">Matéria: Matemática</h5>
+    <p class="card-text">Indicação: 8 a 10 anos</p>
+    <a href="pagina_conteudo.php" class="btn btn-primary">Entrar</a>
+   
   </div>
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
   <img class="card-img-top" src="./imagem/losa15.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Biologia</h5>
-    <p class="card-text">Formação H2O</p>
-    <a href="#" class="btn btn-primary">Entrar</a>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
+  <p class="card-text">Autor: Reseli braga</p>
+    <h5 class="card-title">Matéria: Biologia</h5>
+    <p class="card-text">Indicação: 8 a 10 anos</p>
+    <a href="pagina_conteudo.php" class="btn btn-primary">Entrar</a>
+   
   </div>
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
   <img class="card-img-top" src="./imagem/losa16.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Educação Física</h5>
-    <p class="card-text">Esportes e alimentação saudável</p>
-    <a href="#" class="btn btn-primary">Entrar</a>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
+  <p class="card-text">Autor: Reseli braga</p>
+    <h5 class="card-title">Matéria: Educação Física</h5>
+    <p class="card-text">Indicação: 8 a 10 anos</p>
+    <a href="pagina_conteudo.php" class="btn btn-primary">Entrar</a>
+   
   </div>
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
   <img class="card-img-top" src="./imagem/losa21.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Química</h5>
-    <p class="card-text">Propriedades da matéria</p>
-    <a href="#" class="btn btn-primary">Entrar</a>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
+  <p class="card-text">Autor: Reseli braga</p>
+    <h5 class="card-title">Matéria: Química</h5>
+    <p class="card-text">Indicação: 8 a 10 anos</p>
+    <a href="pagina_conteudo.php" class="btn btn-primary">Entrar</a>
+   
   </div>
 </div>
 
 <div class="card mb-5" style="width: 18rem;">
   <img class="card-img-top" src="./imagem/losa22.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Inglês</h5>
-    <p class="card-text">Conversação, escritua e leitura</p>
-    <a href="#" class="btn btn-primary">Entrar</a>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
+  <p class="card-text">Autor: Reseli braga</p>
+    <h5 class="card-title">Matéria: Inglês</h5>
+    <p class="card-text">Indicação: 8 a 10 anos</p>
+    <a href="pagina_conteudo.php" class="btn btn-primary">Entrar</a>
+   
   </div>
 </div>
 
@@ -217,10 +194,11 @@ exit;
 
   <img class="card-img-top" src="./imagem/losa23.jpeg" alt="Imagem de capa do card">
   <div class="card-body">
-    <h5 class="card-title">Física</h5>
-    <p class="card-text">Teoria eletromagnética</p>
-    <a href="#" class="btn btn-primary">Entrar</a>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Postagem</button>
+  <p class="card-text">Autor: Reseli braga</p>
+    <h5 class="card-title">Matéria: Física</h5>
+    <p class="card-text">Indicação: 8 a 10 anos</p>
+    <a href="pagina_conteudo.php" class="btn btn-primary">Entrar</a>
+   
   </div>
 </div>
 			
