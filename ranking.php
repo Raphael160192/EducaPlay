@@ -45,15 +45,15 @@
   <button type="button" class="btn btn-light text-secondary">Ranking semanal</button>
   <button type="button" class="btn btn-light text-secondary">Ranking mensal</button>
   <button type="button" class="btn btn-light text-secondary">Ranking geral</button>
-  <button type="button" class="btn btn-secondary text-white">Pontuação</button>
+  <button type="button" class="btn btn-info text-white">Pontuação</button>
 </div>
 <div class="table-responsive">
-<table class="table table-borderless table-secondary">
+<table class="table table-borderless table-primary">
   <thead>
     <tr>
       <th scope="col">10.000xp</th>
       <td>Renato Marinho</td>
-      <td>10 tópicos</td>
+      <td>100 tópicos</td>
       <td>0 ponts</td>
       <td>100 ponts</td>
     </tr>
@@ -62,24 +62,67 @@
     <tr>
       <th scope="row">5.000xp</th>
       <td>Roseli Ferreira</td>
-      <td>5 tópicos</td>
+      <td>50 tópicos</td>
       <td>0 ponts</td>
       <td>100 ponts</td>
     </tr>
     <tr>
       <th scope="row">3.000xp</th>
       <td>Allan Gabriell</td>
-      <td>3 tópicos</td>
+      <td>30 tópicos</td>
       <td>0 ponts</td>
       <td>100 ponts</td>
     </tr>
     <tr>
       <th scope="row">1.000xp</th>
       <td>Rosana Silva</td>
-      <td>1 tópicos</td>
+      <td>10 tópicos</td>
       <td>0 ponts</td>
       <td>100 ponts</td>
     </tr>
+    <tr>
+      <th scope="row">1.000xp</th>
+      <td>Mariana Santos</td>
+      <td>10 tópicos</td>
+      <td>0 ponts</td>
+      <td>100 ponts</td>
+    </tr>
+    <tr>
+      <th scope="row">1.000xp</th>
+      <td>Joaquim Ferreira</td>
+      <td>10 tópicos</td>
+      <td>0 ponts</td>
+      <td>100 ponts</td>
+    </tr>
+    <tr>
+      <th scope="row">900xp</th>
+      <td>Fernanda Oliveira</td>
+      <td>9 tópicos</td>
+      <td>0 ponts</td>
+      <td>100 ponts</td>
+    </tr>
+    <tr>
+      <th scope="row">800xp</th>
+      <td>Marta Meneses</td>
+      <td>8 tópicos</td>
+      <td>0 ponts</td>
+      <td>100 ponts</td>
+    </tr>
+    <tr>
+      <th scope="row">600xp</th>
+      <td>Marcos Antônio</td>
+      <td>6 tópicos</td>
+      <td>0 ponts</td>
+      <td>100 ponts</td>
+    </tr>
+    <tr>
+      <th scope="row">500xp</th>
+      <td>Moises Henrique</td>
+      <td>5 tópicos</td>
+      <td>0 ponts</td>
+      <td>100 ponts</td>
+    </tr>
+    
   </tbody>
 </table>
 </div>

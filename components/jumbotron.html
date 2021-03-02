@@ -1,0 +1,61 @@
+<html>
+    <div class="jumbotron jumbotron-fluid" style="background-image: url(http://www.radiogramadonews.com.br/wp-content/uploads/2020/06/fundo-azul.jpg);">
+        <button type="button" class="btn btn-danger float-right m-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Adicionar plano de aula</button>
+          <div class="container">
+            <h5 class="display-4 text-center text-white">Pesquise sua matéria preferida!</h5>
+            <br>
+            <div class="input-group flex-nowrap">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="addon-wrapping"><img class="mr-2" style="width:15px; heigth:15px" src="./imagem/lupa.svg" alt=""></span>
+          </div>
+          <input type="text" class="form-control" placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="addon-wrapping">
+        </div>
+        
+          </div>
+        </div>
+        
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Plano de aula</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="recipient-name" class="col-form-label">Unidade temática:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="form-group">
+                    <label for="message-text" class="col-form-label">Objeto de conhecimento:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="message-text" class="col-form-label">Habilidades:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="message-text" class="col-form-label">Descrição das atividades com recursos utilizados:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="message-text" class="col-form-label">Atividades de estudo:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="message-text" class="col-form-label">Instrumento de avaliação:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Enviar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+</html>
