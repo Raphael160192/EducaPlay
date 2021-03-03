@@ -1,7 +1,3 @@
-<?php
-  include("dbcomentario.php");
-  ?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -48,7 +44,7 @@
   <button type="button" class="btn btn-info text-white">Pontuação</button>
 </div>
 <div class="table-responsive">
-<table class="table table-borderless table-primary">
+<table class="table table table-primary">
   <thead>
     <tr>
       <th scope="col">10.000xp</th>
@@ -136,9 +132,5 @@
 
   ?>
 
-
-
-
-  <script src="js/scripts.js"></script>
 </body>
 </html>

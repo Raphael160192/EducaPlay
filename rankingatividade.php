@@ -40,10 +40,10 @@
   <button type="button" class="btn btn-light text-secondary">Ranking semanal</button>
   <button type="button" class="btn btn-light text-secondary">Ranking mensal</button>
   <button type="button" class="btn btn-light text-secondary">Ranking geral</button>
-  <button type="button" class="btn btn-secondary text-white">Pontuação</button>
+  <button type="button" class="btn btn-info text-white">Pontuação</button>
 </div>
 <div class="table-responsive">
-<table class="table table-borderless table-secondary">
+<table class="table table-primary">
   <thead>
   <tr>
       <th scope="col">10.000xp</th>
