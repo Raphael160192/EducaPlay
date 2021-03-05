@@ -5,11 +5,58 @@
             <h5 class="display-4 text-center text-white">Pesquise sua matéria preferida!</h5>
             <br>
             <div class="input-group flex-nowrap">
+
           <div class="input-group-prepend">
             <span class="input-group-text" id="addon-wrapping"><img class="mr-2" style="width:15px; heigth:15px" src="./imagem/lupa.svg" alt=""></span>
           </div>
+
           <input type="text" class="form-control" placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="addon-wrapping">
         </div>
+
+        
+        <div class="container">
+          <p class="d-flex justify-content-center">
+            <a class="btn btn-primary m-3" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Top Professores</a>
+            <button class="btn btn-primary m-3" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Top Materiais</button>
+
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                
+                <div class="list-group">
+                  <a href="ranking.php" class="list-group-item list-group-item-action active d-flex justify-content-center">
+                    <p style="font-size: 1.4rem;" class="text-center mb-0 text-light">👑 Top Professores</p>
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action">Renato Marinho</a>
+                  <a href="#" class="list-group-item list-group-item-action">Roseli Ferreira</a>
+                  <a href="#" class="list-group-item list-group-item-action">	Allan Gabriell</a>
+                  <a href="#" class="list-group-item list-group-item-action disabled">Rosana Silva</a>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                
+                <div class="list-group d-flex">
+                  <a href="rankingatividade.php" class="list-group-item list-group-item-action active d-flex justify-content-center">
+                    <p style="font-size: 1.4rem;" class="text-center mb-0 text-light">👑  Top Materiais</p>
+                  </a>
+                  <a href="pagina_conteudo.php" class="list-group-item list-group-item-action">Dança Bumba meu Boi</a>
+                  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                  <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
         
           </div>
         </div>
@@ -23,6 +70,7 @@
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
+
               <div class="modal-body">
                 <form>
                   <div class="form-group">
@@ -51,6 +99,7 @@
                   </div>
                 </form>
               </div>
+              
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                 <button type="button" class="btn btn-primary">Enviar</button>
