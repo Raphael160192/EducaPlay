@@ -37,14 +37,14 @@
 
 <main >
 
-<div class="" style="background-color: white ;height:900px">
+<div class="" style="background-color: white ;height:1100px">
         
             
               
 
               <div class="d-flex justify-content-between">
 
-              <div style="background-color:	#606060; height:900px" class="col-md-3">
+              <div style="background-color:	#606060; height:1100px" class="col-md-3">
 
             <img class="container-fluid p-5" style="border-radius:200px" src="./imagem/professora.png" alt="">
 
@@ -112,12 +112,22 @@
               <h4>Reconhecer as culturas e as diferenças regionais </h4>  
               </div>
 
+
+              
               
               </div>
 
               
 
-
+              <section class="mt-5">
+                <div>
+              <embed src="./arquivos/danca_bumbameuboi.pdf" width="500px" height="200px" />
+              </div>
+              <div class="mt-4">
+              <a href="./arquivos/danca_bumbameuboi.pdf" type="button" class="btn btn-primary" download>Download</a>
+              </div>
+              </section>
+              
 
 
 
